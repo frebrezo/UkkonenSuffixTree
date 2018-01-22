@@ -3,7 +3,7 @@ C# port of https://github.com/schmidda/ukkonen-suffixtree
 
 
 References:
-* http://programmerspatch.blogspot.com.au/2013/02/ukkonens-suffix-tree-algorithm.html
+* http://programmerspatch.blogspot.com/2013/02/ukkonens-suffix-tree-algorithm.html
   * https://github.com/schmidda/ukkonen-suffixtree
 * https://www.cs.helsinki.fi/u/ukkonen/SuffixT1withFigs.pdf
 * https://www.cise.ufl.edu/~sahni/dsaaj/enrich/c16/suffix.htm
