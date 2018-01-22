@@ -33,7 +33,7 @@ namespace UkkonenSuffixTree.Library
         /// </summary>
         protected int _oldj;
         /// <summary>
-        /// End of currrent leaves.
+        /// End of current leaves.
         /// </summary>
         protected int _e;
 
