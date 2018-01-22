@@ -10,10 +10,23 @@ namespace UkkonenSuffixTree.Library
     /// </summary>
     public class SuffixTreeBuilder
     {
+        /// <summary>
+        /// Root node of the suffix tree. Identified by SuffixTreeNode.Start = 0 and SuffixTreeNode.Length = 0.
+        /// </summary>
         protected SuffixTreeNode _root;
+        /// <summary>
+        /// First node of the suffix tree. Represents the entire string of the suffix tree was built.
+        /// Initialized to SuffixTreeNode.Start = 0 and SuffixTreeNode.Length = int.MaxValue.
+        /// </summary>
         protected SuffixTreeNode _f;
         protected SuffixTreeNode _current;
+        /// <summary>
+        /// Initialized to SuffixTreeNode.Start = 0 and SuffixTreeNode.Length = int.MaxValue.
+        /// </summary>
         protected SuffixTreeNodePosition _last;
+        /// <summary>
+        /// Initialized to SuffixTreeNode.Start = 0 and SuffixTreeNode.Length = int.MaxValue.
+        /// </summary>
         protected SuffixTreeNodePosition _oldBeta;
         /// <summary>
         /// Last value of j in the previous extension.
